@@ -1,4 +1,4 @@
-# Projeto AZ-900 IaC com Bicep
+# AZ-900 IaC com Bicep
 
 Este projeto demonstra como provisionar e monitorar uma **Máquina Virtual no Azure** utilizando **Infrastructure as Code (IaC)** com **Bicep**.  
 Os templates estão organizados em três arquivos principais:
@@ -83,4 +83,5 @@ az deployment group create \
 📚 Referências
 -	Documentação do Bicep (learn.microsoft.com in Bing)
 -	Azure Monitor Alerts (learn.microsoft.com in Bing)
+
 -	Activity Log Alerts (learn.microsoft.com in Bing)
