@@ -42,7 +42,7 @@ az900-iac-bicep/
 
 2. Cria a máquina virtual:
 
-• 	Nome: 
+• 	Nome:
 • 	Sistema operacional: Ubuntu (padrão)
 • 	Usuário administrador: 
 • 	Senha definida via parâmetro seguro
