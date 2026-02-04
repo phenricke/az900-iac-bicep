@@ -26,32 +26,32 @@ az900-iac-bicep/
 - Extensão Bicep instalada e atualizada:
   ```bash
   az bicep upgrade
-- Uma Resource Group já criado:
+- Um Resource Group já criado:
   ```bash
-  az group create --name RG-az900-iac-bicep --location eastus
+  az group create --name RG-az900-iac-bicep --location northcentralus
 
 📦 Estrutura dos Templates
 
 1. Cria os recursos de rede necessários:
 
-• 	Virtual Network (VNet)
-• 	Subnet
-• 	Network Security Group (NSG) com regras básicas
-• 	IP público
-• 	Network Interface (NIC)
+- Virtual Network (VNet)
+- Subnet
+- Network Security Group (NSG) com regras básicas
+- IP público
+- Network Interface (NIC)
 
 2. Cria a máquina virtual:
 
-• 	Nome:
-• 	Sistema operacional: Ubuntu (padrão)
-• 	Usuário administrador: 
-• 	Senha definida via parâmetro seguro
-• 	Associação com NIC e IP público
+- Nome:
+- Sistema operacional: Ubuntu (padrão)
+-	Usuário administrador: 
+-	Senha definida via parâmetro seguro
+-	Associação com NIC e IP público
 
 3. Configura alertas de monitoramento:
 
-• 	Metric Alert: uso de CPU acima de 80% (opcional, requer )
-• 	Activity Log Alert: eventos administrativos da VM (start, stop, restart, delete)
+-	Metric Alert: uso de CPU acima de 80% (opcional, requer )
+-	Activity Log Alert: eventos administrativos da VM (start, stop, restart, delete)
 
 ⚙️ Deploy
 
@@ -77,10 +77,10 @@ az deployment group create \
 ```
 
 📊 Monitoramento
-• 	CPU Alert: dispara quando a utilização média de CPU > 80% em 5 minutos.
-• 	Activity Log Alert: dispara quando a VM é iniciada, desligada, reiniciada ou excluída.
+- CPU Alert: dispara quando a utilização média de CPU > 80% em 5 minutos.
+-	Activity Log Alert: dispara quando a VM é iniciada, desligada, reiniciada ou excluída.
 
 📚 Referências
-• 	Documentação do Bicep (learn.microsoft.com in Bing)
-• 	Azure Monitor Alerts (learn.microsoft.com in Bing)
-• 	Activity Log Alerts (learn.microsoft.com in Bing)
+-	Documentação do Bicep (learn.microsoft.com in Bing)
+-	Azure Monitor Alerts (learn.microsoft.com in Bing)
+-	Activity Log Alerts (learn.microsoft.com in Bing)
